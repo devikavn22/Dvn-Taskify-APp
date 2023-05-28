@@ -1,0 +1,48 @@
+.input{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 90%;
+}
+.input__box{
+    border-radius: 25px;
+    margin: 3px;
+    width: 100%;
+    font-size: 25px;
+    padding: 18px 20px;
+    border: none;
+    transition: 0.2s;
+    font-family: "Neucha", cursive;
+}
+.input__submit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 14px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: rgb(60, 235, 182);
+    border: none;
+    background-color: rgb(116, 116, 145);
+    font-family: "Neucha", cursive;
+    box-shadow:0 0  5px 5px #4d4b4b;
+    padding: 6px;
+    font-weight: bold;
+    transform: scale(0.8);
+}
+
+
+@media (max-width:700px){
+    .todos{
+        width: 95%;;
+    }
+    .input{
+        width:95%;
+    }
+    
+     .single_todo{
+        width: 95%;
+    }
+  }
+
