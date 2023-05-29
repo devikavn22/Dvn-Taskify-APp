@@ -28,6 +28,9 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
     setTodos(
       todos.map((todo) => (todo.id === id ? { ...todo, todo: editTodo } : todo))
     );
+    if(editTodo===''){
+      setEdit(false);
+    }
     setEdit(false);
   };
 
